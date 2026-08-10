@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+
+}
+
+p, h1, h2 {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+header, section.normal {
+    padding: 20px;
+}
+
+section.flex-content {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+footer, a, p.roda {
+    background-color: lightgray;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
